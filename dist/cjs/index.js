@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("react"),r=require("@mui/material/Box"),t=require("@mui/material/Typography");function a(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var u=a(e),o=a(r),l=a(t);exports.Banner=function(){return u.default.createElement(o.default,{className:"banner",sx:{flexGrow:1,height:250,backgroundColor:"#97d2fb",borderRadius:5}},u.default.createElement(l.default,{variant:"h3",color:"#2a628f",sx:{p:2}},"Welcome Aj"))};
+//# sourceMappingURL=index.js.map

@@ -1,0 +1,60 @@
+{
+  "name": "@ajinkya-dhote/react-components",
+  "version": "1.0.3",
+  "description": "A resuable react component library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajinkya-dhote/react-components.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Ajinkya-Dhote"
+  },
+  "keywords": [
+    "react",
+    "react",
+    "component",
+    "component",
+    "reusable",
+    "reusable",
+    "component"
+  ],
+  "author": "Ajinkya Dhote",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajinkya-Dhote/react-components/issues"
+  },
+  "homepage": "https://github.com/Ajinkya-Dhote/react-components#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.9",
+    "babel-jest": "^28.1.0",
+    "babel-loader": "^8.2.5",
+    "rollup": "^2.75.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.7.2"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.8.1",
+    "react": "^18.1.0"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
